@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+</head>
+<body>
+	<div align="center">
+		<input type="submit" value="Hello World" style="background-color: #1E90FF; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 6px; color: #fff; font-family: 'Oswald'; font-size: 20px; text-decoration: none; cursor: poiner; border: none;">
+	</div>
+</body>
+
