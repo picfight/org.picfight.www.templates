@@ -22,47 +22,50 @@
             style="background-color:#ffffff"
     >
         <tr>
-            <td>
-                <H1></H1>
-            </td>
-        </tr>
-        <tr>
-            <td align="center" style="vertical-align:middle">
-                <a href="../vkalbums.html"
-                   class="linkcolor">
-                    Альбомы
-                </a>
-                »
-                <a href="#ALBUM_URL#"
-                   class="linkcolor">
-                    #ALBUM_TITLE#
-                </a>
-            </td>
-        </tr>
+            <td valign="top">
+                <table
+                        width="640"
+                        border="0"
+                        style="background-color:#ffffff"
+                >
+                    <tr>
+                        <td>
+                            <a href="../vkalbums.html"
+                               class="linkcolor">
+                                Альбомы
+                            </a>
+                            »
+                            <a href="#ALBUM_URL#"
+                               class="linkcolor">
+                                #ALBUM_TITLE#
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#ALBUM_COVER_URL#">
+                                <img src="#ALBUM_COVER_IMAGE#"
+                                     width="640">
+                            </a>
+                        </td>
 
-        <tr>
-            <td
-                    align="center"
-            >
-                <a href="#ALBUM_COVER_URL#">
-                    <img src="#ALBUM_COVER_IMAGE#"
-                         height="480">
-                </a>
+                    </tr>
+                    <tr>
+                        <td width="640">
+                            #ALBUM_DESCRIPTION#
+                        </td>
+
+                    </tr>
+                </table>
             </td>
-        </tr>
-        <tr>
-            <td
-                    align="center"
-            >
-                #ALBUM_DESCRIPTION#
+            <td>
+                <div align="left">
+                    #BODY_CONTENT#
+                </div>
+
             </td>
         </tr>
     </table>
-
-    <div align="center">
-        #BODY_CONTENT#
-    </div>
-
 </div>
 </body>
 </html>
